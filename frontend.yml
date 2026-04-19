@@ -9,7 +9,7 @@
       ansible.builtin.dnf:
         name: 
           - '@nginx:1.26'
-          - 'node'
+          - nodejs
         state: present
 
     - name: copy file
